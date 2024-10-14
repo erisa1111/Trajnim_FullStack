@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Today we're going to learn about forms-->
+    <fieldset>
+        <legend>Personal Information</legend>
+        <form>
+            <label for="firstname">First Name:</label><br>
+            <input type="text" id="firstname" name="firstname" value="John" readonly><br>
+            <label for="lastname">Last Name:</label><br>
+            <input type="text" id="lastname" name="lastname" disabled><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" size="40" maxlength="30" required><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="pass" name="pass" placeholder="Password"><br>
+
+            <!--radio buttons/ gender selection-->
+
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label>Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label>Female</label><br><br>
+
+            <br>
+            <!--Checkboxes-->
+            <label>Hobbies:</label><br>
+            <input type="checkbox" id="gaming" name="gaming" value="Gaming">
+            <label for="gaming">Gaming</label><br>
+            <input type="checkbox" id="football" name="football" value="Football">
+            <label for="football">Football</label><br>
+            <input type="checkbox" id="swimming" name="swimming" value="Swimming">
+            <label for="swimming">Swimming</label><br><br>
+
+
+            <!--select-->
+            <label for="pets">Choose a pet:</label>
+            <select name="pet" id="pet">
+                <option value="Dog">Dog</option>
+                <option value="Cat">Cat</option>
+                <option value="Parrot">Parrot</option>
+            </select><br><br>
+
+            <!--text area-->
+            <textarea name="message" rows="10" cols="20"></textarea><br>
+            <br>
+
+            <hr>
+
+            <article>
+                <h2>This is an article</h2>
+                <p>Lorem ipsum dolor sit amet consectetur ....</p>
+            </article>
+
+            <details>Digital School</details>
+            <p> Digital school is an institution that offers....</p>
+            <hr>
+            <figure>
+                <img src="images/images.jfif">
+                <figcaption>Fig.1-Coding Picture</figcaption>
+            </figure>
+            <section>
+                <h2>Indroduction</h2>
+                <p>this course will teach u HTML, CSS, JS, PHP</p>
+            </section>
+
+
+
+            <!--Submit form-->
+            <input type="submit" id="submit" name="submit"><br>
+
+
+        </form>
+    </fieldset>
+</body>
+
+</html>
