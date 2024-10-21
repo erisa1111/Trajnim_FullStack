@@ -1,0 +1,42 @@
+ul{
+    border-left: 15px solid green;
+    background-color: #f1f1f1;
+    list-style-type: none;
+    border: 20px solid grey;
+}
+ol{
+    list-style-type:none;
+    background: #ffeeee;
+    padding: 15px;
+}
+ul li{
+    padding: 8px 16px;
+    border-bottom: 1px solid grey;
+}
+ol li{
+    background: #000000;
+    padding: 10px;
+    color: white;
+}
+
+td, td{
+    border:1px solid #eee ;
+    padding:15px;
+}
+table{
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(odd){
+    background-color: pink;
+}
+tbody tr:nth-child(even){
+    background-color: powderblue;
+}
+
+div{
+    overflow: scroll;
+    background-color: palevioletred;
+    width: 200px;
+    height:200px;
+}
