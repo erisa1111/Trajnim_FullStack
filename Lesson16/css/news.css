@@ -1,0 +1,33 @@
+
+nav{
+    position: sticky;
+    top:0;
+    
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: brown;
+    text-align: center;
+    position: sticky;
+   
+    
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+
+}
+
+.active a{
+    color: pink;
+}
+nav ul li a:hover{
+    background-color: antiquewhite;
+}
