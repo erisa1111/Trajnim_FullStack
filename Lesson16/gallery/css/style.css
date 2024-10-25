@@ -1,0 +1,49 @@
+div.gallery{
+    margin:5px;
+    float: left;
+    width: 180px;
+    border: 1px solid #ccc;
+}
+div.gallery img{
+    width: 100%;
+    height: auto;
+
+
+}
+div.desc{
+    padding: 15px;
+    text-align:center;
+}
+a{
+    color: red;
+}
+a[href="https://facebook.com"]{
+    color:blue;
+}
+
+p[class*="paragraph"]{
+    background-color:cadetblue;
+    padding: 15px;
+    color:whitesmoke;
+}
+/*kur e permbane fjalen e caktume por me hapesire psh .. ds .. */
+div[id~="ds"]{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+/*kur fillon me nje fjal te caktume*/
+div[id^="ds"]{
+    background-color:cornflowerblue;
+    color: white;
+    padding: 15px;
+}
+/*kur permbane nje vize ne mes*/
+div[id|="ds"]{
+    background-color:blueviolet;
+    color: white;
+    padding: 15px;
+}
+input[readonly]{
+    border:2px solid green;
+}

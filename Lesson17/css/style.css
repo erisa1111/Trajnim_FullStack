@@ -1,0 +1,90 @@
+.dropdown{
+    position: relative;
+    display: inline-block; 
+}
+.dropdown-content{
+    display: none;
+    background-color: #f9f9f9;
+    position: absolute;
+    min-width:160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.tooltip{
+    visibility: visible;
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding:5px;
+    position: absolute;
+    z-index:1;
+    border-radius: 6px;
+}
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+}
+body{
+    counter-reset: number;
+}
+h2::before{
+    counter-increment:number;
+    content: counter(number);
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px 12px;
+    color: #00014e;
+    margin: 10px;
+}
+:root{
+    --primary-color:#1741b6;
+}
+
+h1{
+    color: var(--primary-color);
+}
+
+#example-one{
+    border-radius: 25px;
+    background-color: crimson;
+    width:100px;
+    height: 100px;
+}
+
+#example-two{
+    border: 3px solid blue;
+    width:100px;
+    height: 100px;
+    border-radius: 10px;
+
+}
+#example-three{
+    border: 5px solid coral;
+    width:100px;
+    height: 100px;
+    border-radius: 5px 50px 5px;
+
+}
+#example-four{
+    border: 5px solid green;
+    width:100px;
+    height: 100px;
+    border-radius: 10px/30px;
+}
+
+#example-five{
+    border-radius: 30px/10px;
+    background-color: powderblue;
+    width:100px;
+    height: 100px;
+}
