@@ -1,0 +1,48 @@
+@media (min-width:600px){
+    body{
+        background-color: black;
+        color: white;
+    }
+
+}
+@media all and (max-width:600px){
+    body{
+        background: blue;
+        color:white;
+    }
+
+}
+@media  all and (orientation:landscape){
+    h1{
+        font-size: 80px;
+
+    }
+}
+@media  all and (orientation:protrait){
+    h1{
+        font-size: 30px;
+        
+    }
+}
+
+@media (min-width:600px) and (max-width:900px){
+    img{
+        display:none;
+    }
+}
+
+@media (min-width:600px){
+    p{
+        column-count: 2;
+    }
+}
+
+@media print{
+    body{
+        background-color: red;
+        color: black;
+    }
+    h1{
+        display:none;
+    }
+}
