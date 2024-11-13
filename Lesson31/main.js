@@ -24,6 +24,8 @@
 //     document.querySelector('p').innerHTML=
 //     names[Math.floor(Math.random()*names.length)];
 // }
+
+
 // setInterval(changeColor,1000);
 // setInterval(changeName,1000);
 var circle = document.getElementsByClassName("circle")[0]
